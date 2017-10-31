@@ -2,7 +2,7 @@
 set -eo pipefail
 
 if ! hash ghi 2>/dev/null; then
-    echo "Failed to find ghi, please install that first!"
+    echo "failed to find ghi, please install that first!"
     exit 1
 fi
 
@@ -11,7 +11,6 @@ repos=(
     umschlag-api
     umschlag-cli
     umschlag-docs
-    umschlag-go
     umschlag-scripts
 )
 
