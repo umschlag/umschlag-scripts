@@ -1,6 +1,7 @@
 # Umschlag: Scripts
 
 [![Build Status](http://github.dronehippie.de/api/badges/umschlag/umschlag-scripts/status.svg)](http://github.dronehippie.de/umschlag/umschlag-scripts)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3036832d4904a489835e77d5ba4dc4d)](https://www.codacy.com/app/tboerger/umschlag-scripts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=umschlag/umschlag-scripts&amp;utm_campaign=Badge_Grade)
 [![Join the chat at https://gitter.im/umschlag/umschlag](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/umschlag/umschlag)
 [![Stories in Ready](https://badge.waffle.io/umschlag/umschlag-api.svg?label=ready&title=Ready)](http://waffle.io/umschlag/umschlag-api)
 
