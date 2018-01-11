@@ -25,6 +25,7 @@ fi
 
 repos=(
     homebrew-umschlag
+    umschlag-ui
     umschlag-api
     umschlag-cli
     umschlag-docs
