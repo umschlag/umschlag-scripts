@@ -30,6 +30,11 @@ repos=(
     umschlag-cli
     umschlag-docs
     umschlag-scripts
+    umschlag-go
+    umschlag-js
+    umschlag-php
+    umschlag-python
+    umschlag-ruby
 )
 
 labels=(

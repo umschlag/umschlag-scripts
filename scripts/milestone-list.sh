@@ -28,6 +28,11 @@ repos=(
     umschlag-api
     umschlag-cli
     umschlag-ui
+    umschlag-go
+    umschlag-js
+    umschlag-php
+    umschlag-python
+    umschlag-ruby
 )
 
 for repo in "${repos[@]}"; do
