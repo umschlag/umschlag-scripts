@@ -64,6 +64,6 @@ for repo in "${repos[@]}"; do
         title="${label%%:*}"
         color="${label##*:}"
 
-        ghi label -a -c "${color}" "${title}" -- umschlag/${repo}
+        ghi label -a -c "${color}" "${title}" -- "umschlag/${repo}"
     done
 done
