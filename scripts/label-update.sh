@@ -30,6 +30,8 @@ repos=(
     umschlag-cli
     umschlag-docs
     umschlag-scripts
+    umschlag-android
+    umschlag-ios
     umschlag-go
     umschlag-js
     umschlag-php
