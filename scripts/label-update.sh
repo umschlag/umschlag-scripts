@@ -37,6 +37,7 @@ repos=(
     umschlag-php
     umschlag-python
     umschlag-ruby
+    umschlag-infra
 )
 
 labels=(
