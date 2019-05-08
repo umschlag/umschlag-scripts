@@ -23,8 +23,8 @@ if [ -z "${DOCKER_USERNAME}" ]; then
     exit 1
 fi
 
-if [ -z "${DOCKER_USERNAME}" ]; then
-    echo "Please export DOCKER_USERNAME!"
+if [ -z "${DOCKER_PASSWORD}" ]; then
+    echo "Please export DOCKER_PASSWORD!"
     exit 1
 fi
 
@@ -52,9 +52,9 @@ for REPO in ${REPOS}; do
     esac
 
     DESCRIPTION=(
-        '# '"${TITLE}"' [![Build Status](http://drone.umschlag.tech/api/badges/umschlag/'"${REPO}"'/status.svg)](http://drone.umschlag.tech/umschlag/'"${REPO}"') [![](https://images.microbadger.com/badges/image/umschlag/'"${REPO}"'.svg)](http://microbadger.com/images/umschlag/'"${REPO}"' \"Get your own image badge on microbadger.com\")'
+        '# '"${TITLE}"' [![Build Status](http://cloud.drone.io/api/badges/umschlag/'"${REPO}"'/status.svg)](http://cloud.drone.io/umschlag/'"${REPO}"') [![](https://images.microbadger.com/badges/image/umschlag/'"${REPO}"'.svg)](http://microbadger.com/images/umschlag/'"${REPO}"' \"Get your own image badge on microbadger.com\")'
         '\n'
-        'Managed by [umschlag/'"${REPO}"'](https://github.com/umschlag/'"${REPO}"'), built and pushed with [Drone CI](http://drone.umschlag.tech/umschlag/'"${REPO}"').'
+        'Managed by [umschlag/'"${REPO}"'](https://github.com/umschlag/'"${REPO}"'), built and pushed with [Drone CI](http://cloud.drone.io/umschlag/'"${REPO}"').'
     )
 
     PAYLOAD=$(mktemp)

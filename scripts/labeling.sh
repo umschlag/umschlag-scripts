@@ -24,26 +24,28 @@ if ! hash ghi 2>/dev/null; then
 fi
 
 repos=(
-    homebrew-umschlag
-    umschlag-ui
+    umschlag-android
     umschlag-api
     umschlag-cli
+    umschlag-desktop
     umschlag-docs
-    umschlag-scripts
-    umschlag-android
-    umschlag-ios
     umschlag-go
+    umschlag-infra
+    umschlag-ios
     umschlag-js
     umschlag-php
     umschlag-python
     umschlag-ruby
-    umschlag-infra
+    umschlag-scripts
+    umschlag-ui
+    homebrew-umschlag
 )
 
 labels=(
     bug:fc2929
     duplicate:cccccc
     enhancement:84b6eb
+    good\ first\ issue:7057ff
     hacktoberfest:d4c5f9
     help\ wanted:159818
     in\ progress:ededed
@@ -53,6 +55,8 @@ labels=(
     poc:c2e0c6
     question:cc317c
     ready:ededed
+    rebase:ffa8a5
+    renovate:1d76db
     third-party:e99695
     translation:b60205
     wontfix:5319e7
